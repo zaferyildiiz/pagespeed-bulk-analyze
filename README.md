@@ -25,9 +25,7 @@ Run it locally and get insights on **performance**, **accessibility**, **best pr
 
 Python 3.8+ Flask 3.x requests
 
-yaml
-Kopyala
-Düzenle
+yaml 
 
 ---
 
@@ -39,9 +37,7 @@ docker build -t pagespeed-app .
 Run the container
 docker run -p 5000:5000 pagespeed-app
 
-yaml
-Kopyala
-Düzenle
+yaml 
 
 Then open 👉 http://localhost:5000 in your browser.
 
@@ -58,9 +54,7 @@ pip install -r requirements.txt
 Run the app
 python app.py
 
-yaml
-Kopyala
-Düzenle
+yaml 
 
 ---
 
