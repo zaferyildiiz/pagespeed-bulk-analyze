@@ -17,56 +17,55 @@ Run it locally and get insights on **performance**, **accessibility**, **best pr
 
 ## 🧪 Demo Screenshot
 
-> 🖼️ Add a screenshot of the app here if you want
+> 🖼️ *(Add a screenshot of the app here if you'd like)*
 
 ---
 
 ## ⚙️ Requirements
 
 Python 3.8+ Flask 3.x requests
-
-yaml 
+ 
 
 ---
 
-## 🐳 Run with Docker (recommended)
+## 🐳 Run with Docker (Recommended)
 
-Build Docker image
+> Make sure you have [Docker installed](https://docs.docker.com/get-docker/) on your system.
+
+### 🔧 Build the Docker image:
+
+```bash
 docker build -t pagespeed-app .
-
-Run the container
+▶️ Run the container:
+bash 
 docker run -p 5000:5000 pagespeed-app
+The app will be accessible at 👉 http://localhost:5000
 
-yaml 
+💻 Run Locally (Development)
+For Python environments (without Docker)
 
-Then open 👉 http://localhost:5000 in your browser.
+ 
+# Clone the repository
+git clone https://github.com/zaferyildiiz/pagespeed-bulk-analyze.git
+cd pagespeed-bulk-analyze
 
----
+# Create and activate a virtual environment
+python3 -m venv venv
+source venv/bin/activate
 
-## 💻 Run Locally (Dev Mode)
-
-Create virtual environment (optional but recommended)
-python3 -m venv venv source venv/bin/activate
-
-Install requirements
+# Install dependencies
 pip install -r requirements.txt
 
-Run the app
+# Start the Flask app
 python app.py
+📝 TODO
+ Basic input & output interface
 
-yaml 
+ CSV export
 
----
+ Improve error handling
 
-## 📝 TODO
+ Add page score color indicators (green/yellow/red)
 
-- [x] Basic input & output interface  
-- [ ] CSV export  
-- [ ] Improve error handling  
-- [ ] Add page score color indicators (green/yellow/red)
-
----
-
-## 📄 License
-
-MIT © [Zafer Yıldız](https://github.com/zaferyildiiz)
+📄 License
+MIT © Zafer Yıldız
