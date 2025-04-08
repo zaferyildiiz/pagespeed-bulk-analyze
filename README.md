@@ -36,9 +36,11 @@ Python 3.8+ Flask 3.x requests
 
 ```bash
 docker build -t pagespeed-app .
-▶️ Run the container:
-bash 
+
+▶️ Run the container: 
 docker run -p 5000:5000 pagespeed-app
+
+
 The app will be accessible at 👉 http://localhost:5000
 
 💻 Run Locally (Development)
